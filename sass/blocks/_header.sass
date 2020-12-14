@@ -1,0 +1,61 @@
+.header
+  background-color: $dark
+  height: 545px
+
+.navbar
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 15px 0
+  &__menu
+    display: flex
+    padding: 0
+    margin: 0
+    margin-left: 25px
+  &__item
+    list-style: none
+    margin-right: 30px
+  &__link
+    text-decoration: none
+    color: $light
+    font-size: 14px
+    line-height: 20px
+    font-family: 'Lato-Black'
+.logo
+  margin-left: -4px
+.search
+  height: 39px
+  border-radius: 10px
+  overflow: hidden
+  position: relative
+  display: flex
+  align-items: center
+  &__input
+    padding: 10px 65px 10px 25px
+    height: 100%
+    width: 263px
+    background-color: #656B70
+    border: none
+    font-size: 14px
+    line-height: 20px
+    color: $light
+    outline: none
+    &::placeholder
+      font-family: 'Lato-Regular'
+      color: #939699
+      opacity: 100
+
+  &__button
+    position: absolute
+    top: 0
+    right: 0
+    width: 65px
+    height: 100%
+    border: none
+    background-color: #656B70
+    cursor: pointer
+    outline: none
+  &__img
+    width: 17px
+    height: 18px
+    margin-left: -5px
