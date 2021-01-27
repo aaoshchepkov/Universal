@@ -1,131 +1,184 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Universal</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="navbar">
-          <a href="#" class="logo"
-            ><img src="img/Logo.svg" alt="Logo: Universal" class="logo__img"
-          /></a>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">Статьи</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Universal</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a href="#" class="logo"><img src="img/Logo.svg" alt="Logo: Universal" class="logo__img" /></a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Статьи</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Новости</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Курсы</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">HTML</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">CSS</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">JavaScript</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Web Design</a>
+          </li>
+        </ul>
+        <form action="#" class="search">
+          <input type="text" placeholder="Поиск" class="search__input" />
+          <button class="search__button">
+            <img src="img/search.svg" alt="Icon: search" class="search__img" />
+          </button>
+        </form>
+      </div>
+      <!-- /.navbar -->
+    </div>
+  </header>
+  <section class="hero hero__position">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__main">
+          <div class="hero__developer">
+            <img src="img/hero-developer.png" alt="Photo: Developer" class="hero__developer-img" />
+            <div class="hero__develope-wrapper">
+              <span class="hero__developer-name">Давид Гуров</span>
+              <span class="hero__developer-profession">Разработчик</span>
+            </div>
+            <!-- /.hero__develope-wrapper -->
+          </div>
+          <!-- /.hero__developer -->
+          <div class="hero__block">
+            <a href="#" class="hero__block-link">Javascript</a>
+            <h1 class="hero__block-title">
+              Расширение Chrome защищает от атак
+            </h1>
+            <button class="button">
+              Читать далее
+              <img src="img/Arrow-right.svg" alt="Icon:arrow" class="button__img" />
+            </button>
+          </div>
+          <!-- /.hero__block -->
+        </div>
+        <!-- /.hero-main -->
+        <div class="hero__recommend">
+          <h3 class="hero__recommend-titel">Рекомендуем</h3>
+          <ul class="hero__list">
+            <li class="hero__list-item">
+              <h3 class="hero__list-title">css</h3>
+              <p class="hero__list-text">
+                Как использовать CSS float после того, как вышел Flexbox
+              </p>
             </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">Новости</a>
+            <li class="hero__list-item">
+              <h3 class="hero__list-title">javascript</h3>
+              <p class="hero__list-text">
+                На каком стандарте писать скрипты, если я фрилансер
+              </p>
             </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">Курсы</a>
+            <li class="hero__list-item">
+              <h3 class="hero__list-title">html</h3>
+              <p class="hero__list-text">
+                Правильно вставляем картинку на сайт для Retina дисплея
+              </p>
             </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">HTML</a>
+            <li class="hero__list-item">
+              <h3 class="hero__list-title">Web design</h3>
+              <p class="hero__list-text">ТОП-10 плагинов для Figma</p>
             </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">CSS</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">JavaScript</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#" class="navbar__link">Web Design</a>
+            <li class="hero__list-item">
+              <h3 class="hero__list-title">CSS</h3>
+              <p class="hero__list-text">
+                Возможности CSS Grid Layout , которые уже можно применять
+              </p>
             </li>
           </ul>
-          <form action="#" class="search">
-            <input type="text" placeholder="Поиск" class="search__input" />
-            <button class="search__button">
-              <img
-                src="img/search.svg"
-                alt="Icon: search"
-                class="search__img"
-              />
-            </button>
-          </form>
-        </div>
-        <!-- /.navbar -->
-      </div>
-    </header>
-    <section class="js js__position">
-      <div class="container">
-        <div class="js__wrapper">
-          <div class="js__main">
-            <div class="js__developer">
-              <img
-                src="img/js-developer.png"
-                alt="Photo: Developer"
-                class="js__developer-img"
-              />
-              <div class="js__develope-wrapper">
-                <span class="js__developer-name">Давид Гуров</span>
-                <span class="js__developer-profession">Разработчик</span>
-              </div>
-              <!-- /.js__develope-wrapper -->
-            </div>
-            <!-- /.js__developer -->
-            <div class="js__block">
-              <a href="#" class="js__block-link">Javascript</a>
-              <h1 class="js__block-title">
-                Расширение Chrome защищает от атак
-              </h1>
-              <button class="button">
-                Читать далее
-                <img
-                  src="img/Arrow-right.svg"
-                  alt="Icon:arrow"
-                  class="button__img"
-                />
-              </button>
-            </div>
-            <!-- /.js__block -->
-          </div>
-          <!-- /.js-main -->
-          <div class="js__recommend">
-            <h3 class="js__recommend-titel">Рекомендуем</h3>
-            <ul class="js__list">
-              <li class="js__list-item">
-                <h3 class="js__list-title">css</h3>
-                <p class="js__list-text">
-                  Как использовать CSS float после того, как вышел Flexbox
-                </p>
-              </li>
-              <li class="js__list-item">
-                <h3 class="js__list-title">javascript</h3>
-                <p class="js__list-text">
-                  На каком стандарте писать скрипты, если я фрилансер
-                </p>
-              </li>
-              <li class="js__list-item">
-                <h3 class="js__list-title">html</h3>
-                <p class="js__list-text">
-                  Правильно вставляем картинку на сайт для Retina дисплея
-                </p>
-              </li>
-              <li class="js__list-item">
-                <h3 class="js__list-title">Web design</h3>
-                <p class="js__list-text">ТОП-10 плагинов для Figma</p>
-              </li>
-              <li class="js__list-item">
-                <h3 class="js__list-title">CSS</h3>
-                <p class="js__list-text">
-                  Возможности CSS Grid Layout , которые уже можно применять
-                </p>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
-    </section>
-    <!-- /.js -->
-  </body>
+    </div>
+  </section>
+  <!-- /.hero -->
+  <section class="chips chips__wrapper">
+    <div class="container">
+      <ul class="chips__list">
+        <li class="chips__item">
+          <h3 class="chips__title">25 способов <br> настроить слайдер </h3>
+          <img src="img/chips-1.jpg" alt="Photo" class="chips__img">
+        </li>
+        <li class="chips__item">
+          <h3 class="chips__title">Главные фишки фрилансера</h3>
+          <img src="img/chips-2.jpg" alt="Photo" class="chips__img">
+        </li>
+        <li class="chips__item">
+          <h3 class="chips__title">Техника управления временем “Помодоро”</h3>
+          <img src="img/chips-3.jpg" alt="Photo" class="chips__img">
+        </li>
+        <li class="chips__item">
+          <h3 class="chips__title">Что нужно знать о Git и GitHub </h3>
+          <img src="img/chips-4.jpg" alt="Photo" class="chips__img">
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.chips -->
+  <section class="articles articles__wrapper">
+    <div class="container">
+      <div class="articles__cards">
+      <div class="articles__card-1">
+        <h3 class="articles__subtitle">
+          Статьи
+        </h3>
+        <h1 class="articles__title">
+          Вам предложили работу мечты, но вы не можете... 
+        </h1>
+        <p class="articles__text">
+          Как поступить, если хочется пойти на работу мечты, но она находится в другом городе. У вас семья и переезжать вы не готовы. 
+        </p>
+        <div class="articles__comment">
+          <img src="img/articles-avatar.png" alt="Photo: Пользователь" class="articles__comment-avatar">
+          <h3 class="articles__comment-title">Инна Квашова:</h3>
+          <p class="articles__comment-text">Каждый разработчик мечтает переехать в...</p>
+          <img src="img/Comment.svg" alt="Icon: Сообщение" class="articles__comment-icon">
+          <span class="articles__comment-counter">432</span>
+        </div>
+      </div>
+      <!-- /.articles__1 -->
+      <div class="articles__2"></div>
+      <!-- /.articles__2 -->
+      <div class="articles__3"></div>
+      <!-- /.articles__3 -->
+      <div class="articles__4"></div>
+      <!-- /.articles__4 -->
+      <div class="articles__5"></div>
+      <!-- /.articles__5 -->
+      <div class="articles__6"></div>
+      <!-- /.articles__6 -->
+      <div class="articles__7"></div>
+      <!-- /.articles__7 -->
+      <div class="articles__8"></div>
+      <!-- /.articles__8 -->
+      <div class="articles__9"></div>
+      <!-- /.articles__9 -->
+      <div class="articles__10"></div>
+      <!-- /.articles__10 -->
+      </div>
+      <!-- /.articles__wrapper -->
+    </div>
+  </section>
+  <!-- /.articles -->
+
 </html>
